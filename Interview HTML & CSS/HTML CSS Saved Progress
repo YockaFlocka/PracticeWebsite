@@ -1,0 +1,66 @@
+Interview CSS Progress
+
+.bottom-container {
+  display: grid;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.item1 {
+  align-self: baseline;
+  align-items: baseline;
+  flex-basis: 10%;
+  background-color: #FF9F29;
+  border-radius: 10px;
+  grid-template-areas: 'header' 'main main' 'footer'
+}
+
+.item2 {
+  align-self: baseline;
+  align-items: baseline;
+  flex-basis: 10%;
+  background-color: #FF9F29;
+  border-radius: 10px;
+}
+
+.item3 {
+  align-self: baseline;
+  align-items: baseline;
+  flex-basis: 10%;
+  background-color: #FF9F29;
+  border-radius: 10px;
+
+
+HTML Item1
+  <div class="item1">
+  <table>
+    <thead>
+      <tr>
+        <th>Product Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>This is a product description. It takes up a few lines of space.</td>
+      </tr>
+      <tr>
+        <td>Product Info:</td>
+        <td>Dimensions might go here</td>
+      </tr>
+      <tr>
+        <td>More Info:</td>
+        <td>Another piece of data</td>
+      </tr>
+      <tr>
+        <td>Buy it now!</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
